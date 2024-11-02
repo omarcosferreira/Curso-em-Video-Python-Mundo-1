@@ -1,0 +1,30 @@
+frase = 'Curso em Vídeo Python'
+print('1 ', frase.find('deo'))
+print('2 ', frase.count('o'))
+print('3 ', frase.count('O'))
+print('4 ', frase.upper().count('O'))
+print('5 ', frase[9])
+print('6 ', frase [9:13])
+print('7 ', frase[9:])
+print('8 ', frase[9::2])
+print('9 ', len(frase))
+print(len(frase[9:]))
+print('11 ', len(frase[9::2]))
+print('12 ','Curso' in frase)
+print('13 ', ' video' in frase)
+print(frase.replace('Python', 'Android'))
+print('14 ',frase.upper())
+print('15 ',frase.lower())
+print('16 ',frase.capitalize())
+print('17 ',frase.title())
+print('18 ',frase.find('deo'))
+
+print('22 ',frase.split())
+
+frase2 = frase.split()
+print('24 ', '-'.join(frase2))
+
+frase1 = "   Aprenda Python  "
+print('27 ', frase1.strip())
+print('28 ', frase1.rstrip())
+print('29 ', frase1.lstrip())
